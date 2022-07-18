@@ -1,0 +1,110 @@
+
+/*################
+##### LAYOUT #####
+################*/
+
+/*###########
+# DESKTOP #*/
+
+.desktop {
+    width: 900px;
+}
+
+
+/*### FOOTER ###*/
+
+
+
+/*##############*/
+
+
+/* DESKTOP - END */
+
+
+/*###########
+# MOBILE #*/
+
+@media screen and (min-width: 600px) and (max-width: 960px) {   /* Tablets */
+    
+    .desktop {
+        width: 560px;
+    }
+    
+    .jumbotron {
+        background-image: url(../images/gm/index/pot3.jpg);
+    }
+    
+    /* GM Gallery */
+    
+    /* Just nothing to add , yet. */
+    
+    /* GM Gallery - END */
+    
+
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 600px) {   /* Mobile devices - Common types */    
+    
+    .mobile {
+        width: 300px;
+    }
+    .ec-links {
+        width: 100%;
+    }
+    .pb-two a div {
+        width: 100%;
+    }
+    .pb-two a:nth-child(even) div {
+        margin-left: 0px;
+    }
+    
+    .ic-list-close {
+        top: calc(100% - 100px);
+    }
+    
+    
+    .jumbotron {
+        background-image: url(../images/gm/index/pot3.jpg);
+    }
+    
+    /* GM Gallery */
+    
+    .gmc-column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .gmc-column:not( :first-child ) {
+        margin-left: 0;
+    }
+    
+    /* GM Gallery - END */
+    
+    
+    .ptc-form textarea,
+    .ptc-form input {
+        width: 80%;
+    }
+    
+    .index-stmt,
+    .index-logo {
+        left: 40px;
+        top: 20px;
+    }
+    .index-stmt {
+        left: 0;
+        top: 60%;
+        padding-left: 40px;
+    }
+    .index-stmt h1 {
+        font-size: 4em;
+    }
+    
+    
+}   /* END Mobile */
+
+/* MOBILE - END */
+
+
+/* LAYOUT - End ##
+################*/

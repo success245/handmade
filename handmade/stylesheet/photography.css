@@ -1,0 +1,296 @@
+
+
+
+/* For header */
+
+.phy-header-container {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+}
+.phy-header {
+    margin: 0 auto;
+}
+
+.ph-one {
+    width: 100px;
+    text-align: left;
+}
+.ph-one img {
+    width: auto;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.ph-two {
+    width: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.pht-list {
+    width: auto;
+    height: 20px;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 15px 0 15px 30px;
+}
+.pht-list a {
+    color: #a0a0a0;
+}
+#h-active {
+    color: dodgerblue;
+}
+
+
+/*## BODY ###*/
+
+.onSectionIcon {
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+.phy-body {
+    height: 100%;
+    margin: 0 auto;
+}
+.pb-two,
+.pb-one {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4em;
+}
+.pb-one > h1 {
+    font-size: 3em;
+    font-weight: 100;
+    color: #909090;
+    margin: 2em 0 2.5em 0;
+}
+.pb-one-ul-two {
+    width: 80%;
+}
+.pb-one-ul-two li,
+.pb-one-ul-one li {
+    width: auto;
+    height: auto;
+    padding: 0 5px;
+    margin: 0.3em 0;
+}
+.pb-one-ul-two > li,
+.pb-one-ul-one > li {
+    color: #ddd;
+}
+.pb-one-ul-two a li,
+.pb-one-ul-one a li {
+    color: #505050;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-bottom: 1px dotted transparent;
+}
+.pb-one-ul-two li:hover,
+.pb-one-ul-one li:hover {
+    border-bottom-color: #909090;
+}
+
+.pb-one-ul-two a li {
+    width: auto;
+    height: auto;
+    padding: 0 5px;
+    color: #909090;
+    font-size: 0.9em;
+    font-weight: 100;
+    border-bottom: 1px dotted transparent;
+}
+
+.pb-talk {
+    width: 70%;
+}
+.pb-talk div {
+    margin-left: 20px;
+}
+.pb-talk h2 {
+    font-size: 2em;
+    color: #404040;
+}
+.pb-talk h3 {
+    font-size: 1.5em;
+    color: #909090;
+}
+.pb-talk i {
+    font-size: 0.5em;
+    color: black;
+}
+.pb-talk p {
+    font-size: 1.1em;
+    color: #606060;
+}
+.pb-talk span {
+    color: blue;
+    font-weight: bold;
+}
+.pb-talk a {
+    color: #606060;
+}
+
+.pb-motion {
+    margin-bottom: 20px;   
+}
+.pb-motion video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.pb-about-story {
+    width: 80%;   
+}
+.pb-about-story p {
+    font-size: 1.1em;
+    color: #707070;
+}
+
+
+.contactUs button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+}
+
+
+.pbt-images {
+    width: calc( (100% - 5px) / 2 );
+    background-color: #d0d0d0;
+    margin-bottom: 5px;
+    float: left;
+}
+.pbt-images-a:nth-child(even) > div {
+    margin-left: 5px;
+}
+.pbt-images > div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+.pbt-images i {
+    color: #fff;
+    font-size: 2em;
+    display: none;
+}
+.pbt-images:hover > div {
+    background-color: #000;
+}
+.pbt-images:hover > i {
+    display: block; 
+}
+
+
+.pbt-more-images {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+}
+.pbt-more-images button {
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    border: none;
+    background-color: dodgerblue;
+}
+
+
+
+/* GM GALLERY */
+
+.gmc-row {
+    display: flex;
+    flex-wrap: wrap;
+/*    background-color: darkslategrey;*/
+}
+.gmc-column {
+    flex: calc( (100% - 5px) / 2 );
+    max-width: calc( (100% - 5px) / 2 );
+}
+.gmc-column:not( :first-child ) {
+    margin-left: 5px;
+}
+.gmc-column img {
+    margin-top: 5px;
+    vertical-align: middle;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+
+/* GM GALLERY - END */
+
+
+
+/* CONTACT */
+
+.ptc-one h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: rebeccapurple;
+    margin: 2em 0 2em 0;
+}
+.ptc-one p:first-of-type {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #606060;
+}
+.ptc-one p:last-of-type {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rebeccapurple;
+    margin: 1em 0 1em 1em;
+}
+.ptc-one-a {
+    color: rebeccapurple;
+}
+
+.ptc-form {
+    width: 80%;
+    margin-left: 1.5em;
+}
+.ptc-form textarea,
+.ptc-form input {
+    width: 60%;
+    height: 25px;
+    border: 1px solid #d0d0d0;
+    padding: 5px 10px;
+    margin: 0.3em 0 2em 0;
+    font-size: 0.8em;
+}
+.ptc-form textarea {
+    height: 70px;
+}
+.ptc-form textarea:focus,
+.ptc-form input:focus {
+    border-color: rebeccapurple;
+}
+.ptc-form label {
+    font-weight: 500;
+    color: rebeccapurple;
+}
+.ptc-form button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rebeccapurple;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+/* CONTACT - END */
+
+
+
+
+
+
+

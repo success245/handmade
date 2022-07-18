@@ -1,0 +1,140 @@
+
+/* Styles - NEW */
+
+/* Styles - NEW - END */
+
+
+/*### STYLES ####*/
+
+/* Header */
+
+.image-container,
+.gm-mob-header {
+    width: 100%;
+    height: 50em;
+    z-index: 6;
+    position: fixed;
+    background-color: #000;
+}
+.gmhc-ul a {
+    text-align: left;
+    color: #f0f0f0;
+}
+.gmhc-ul li {
+    font-size: 2em;
+}
+.gmhc-ul a:last-child i {
+    font-size: 0.5em;
+    color: #606060;
+}
+
+/* Header - End */
+
+
+.index-stmt,
+.index-logo {
+    position: absolute;
+    left: 80px;
+    top: 40px;
+}
+.index-logo img {
+    width: 50px;
+    height: auto;
+}
+.index-stmt {
+    left: 0;
+    top: 60%;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 10px 10px 10px 80px;
+}
+.index-stmt h1 {
+    font-size: 5em;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0.2em;
+}
+.index-stmt > p,
+.index-stmt > h6 {
+    color: #a0a0a0;
+}
+.index-stmt a {
+    color: #fff;
+}
+.index-stmt i {
+    font-size: 0.7em;
+}
+
+
+.jumbotron {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../images/gm/index/lnd1.jpg);
+}
+#j-reposition {
+    background-position: 0 -0em;
+}
+.jw-links button {
+    width: 100px;
+    height: 25px;
+    border: 2px solid #f0f0f0;
+    font-size: 1em;
+    color: #f0f0f0;
+    background-color: transparent;
+}
+.jw-links button:hover {
+    background-color: #f0f0f0;
+    color: #404040;
+}
+.jw-links i {
+    font-size: 0.8em;
+}
+
+
+
+/* Click Image Expand */
+
+
+.image-container {
+    height: 100%;
+}
+.ic-list-one,
+.ic-list-three {
+    width: 50px;
+    height: 100%;
+    z-index: 5;
+}
+.ic-list-close i,
+.ic-list-one i,
+.ic-list-three i {
+    color: #fff;
+    font-size: 1em;
+    padding: 0.5em 0.7em;
+    background-color: #404040;
+}
+.ic-list-two {
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    margin-top: 50px;
+    background-color: transparent;
+    z-index: 4;
+}
+.ic-list-two img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.ic-list-close {
+    position: absolute;
+    top: 50px;
+    right: 2em;
+    z-index: 5;
+}
+
+/* Click Image Expand - End */
+
+/*# STYLES - END ##*/
+
+
+
+
+

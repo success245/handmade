@@ -1,0 +1,60 @@
+
+/* Some Pre-requisites */
+
+*[note="e"] {
+    color: dodgerblue;
+}
+*[note="o"] {
+    color: firebrick;
+}
+*[note="t"] {
+    color: mediumseagreen;
+}
+
+*[clearFix] {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+*[rad2] {
+    -webkit-border-radius: 2px;
+       -moz-border-radius: 2px;
+            border-radius: 2px;
+}
+
+*[rad4] {
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+
+*[rad20] {
+    -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+            border-radius: 20px;
+}
+
+*[bcg] {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+}
+
+*[openSans] {
+    font-family: 'Open Sans', calibri;
+}
+
+*[font=times] {
+    font-family: 'Times New Roman', calibri;
+}
+
+*[delay3] {
+    -webkit-transition-duration: 0.3s;
+       -moz-transition-duration: 0.3s;
+         -o-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+}
+
+/* Some Pre-requisites  - END -*/
