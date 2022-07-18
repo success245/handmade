@@ -1,0 +1,251 @@
+
+
+/* Standard */
+:root {
+  height: 100%;
+  font-size: 16px;
+  --header-fontSize-p: 1rem;
+
+  --header-color-h1: #f5f5f5;
+  --img-bck-color: lightgrey;
+
+  --std-margin: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.glova-header {
+  width: 100%;
+  border-bottom: 1px solid #909090;
+  z-index: 999;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: #404040;
+}
+.glova-header-center {
+  width: calc(100% - (var(--std-margin) * 4)); /* 100% - 80px */
+  height: 100%;
+  padding: var(--std-margin) 0;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+.glova-header-left {
+  width: 30%;
+}
+.glova-header-left p,
+.glova-header-left h1 {
+  padding: 0;
+  margin: 0;
+}
+.glova-header-left p {
+  font-size: 0.5em;
+}
+.glova-header-left a {
+  color: var(--header-color-h1);
+  text-decoration: none;
+}
+
+.glova-header-right {
+  width: 70%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.glova-header-right button {
+  margin-left: var(--std-margin);
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Calibri', sans-serif;
+  cursor: pointer;
+
+  color: var(--header-color-h1);
+  background-color: transparent;
+}
+.glova-header-right button:hover {
+  color: #a0a0a0;
+}
+
+
+
+.glova-sect,
+.glova-jumbo {
+  width: 100%;
+  height: 100%;
+  margin-top: calc(var(--std-margin) * 4);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.glova-jumbo-one > img {
+  width: 50%;
+  height: auto;
+}
+.glova-sect-one > h2,
+.glova-jumbo-two > h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.glova-sect-one > p,
+.glova-jumbo-two > p {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: 'Roboto' , sans-serif;
+}
+.glova-jumbo-three {
+  margin: var(--std-margin) 0;
+}
+.glova-jumbo-three button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+
+  color: #f5f5f5;
+  background-image: linear-gradient(30deg, maroon, coral);
+}
+
+
+.glova-sect-one > h2 {
+  font-size: 1.5rem;
+}
+.glova-sect-one > p {
+  font-size: 1rem;
+}
+.glova-sect-two-grid2,
+.glova-sect-two-grid3 {
+  width: 100%;
+  height: auto;
+  margin: var(--std-margin) 0;
+
+  clear: both;
+  content: "";
+}
+.glova-sect-two-grid2 > figure,
+.glova-sect-two-grid3 > figure {
+  width: calc((100% - ((var(--std-margin)*2) * 4)) / 3);
+  height: 0;
+
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30%;
+  margin-left: calc(var(--std-margin) * 2);
+  margin-top: calc(var(--std-margin) * 2);
+  float: left;
+  position: relative;
+
+  background-color: var(--img-bck-color);
+  background-size: cover;
+  background-clip: border-box;
+  background-position: center;
+}
+.glova-sect-two-grid2 > figure > figcaption,
+.glova-sect-two-grid3 > figure > figcaption {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: fantasy;
+
+  padding: var(--std-margin) calc(var(--std-margin) * 2);
+  color: #f5f5f5;
+  background-color: rgba(0,0,0, 0.5);
+  display: none;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.glova-sect-two-grid2 > figure:hover > figcaption,
+.glova-sect-two-grid3 > figure:hover > figcaption {
+  display: block;
+}
+
+.glova-sect-two-grid2 > figure {
+  width: calc((100% - ((var(--std-margin)*2) * 3)) / 2);
+  height: 0;
+
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30%;
+  margin-left: calc(var(--std-margin) * 2);
+  margin-top: calc(var(--std-margin) * 2);
+}
+
+.glova-contact {
+  width: 60%;
+  height: auto;
+  margin: calc(var(--std-margin) * 4) auto;
+
+  text-align: center;
+  font-family: 'Roboto' , sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Framework */
+h1 {
+  font-size: 2rem;
+}
+p {
+  font-size: ;
+}
+.glova-lato {
+  font-family: 'Lato', calibri;
+}
+.glova-calib {
+  font-family: 'Calibri', sans-serif;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+  .glova-header-left h1 {
+    font-size: 1.2rem;
+  }
+  .glova-header-right button {
+    margin-left: calc(var(--std-margin) / 2);
+    font-size: 0.9rem;
+  }
+  .glova-sect-two-grid3 > figure {
+    width: calc((100% - ((var(--std-margin)*2) * 2)) / 1);
+
+    padding-bottom: calc((100% - ((var(--std-margin)*2) * 2)) / 1);
+  }
+  .glova-sect-two-grid2 > figure > figcaption,
+  .glova-sect-two-grid3 > figure > figcaption {
+    font-size: 1.2rem;
+  }
+  .glova-sect-two-grid2 > figure {
+    width: calc((100% - ((var(--std-margin)*2) * 2)) / 1);
+
+    padding-bottom: calc((100% - ((var(--std-margin)*2) * 2)) / 1);
+    margin-left: calc(var(--std-margin) * 2);
+    margin-top: calc(var(--std-margin) * 2);
+  }
+
+
+
+}
